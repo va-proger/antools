@@ -1,0 +1,41 @@
+.hero {
+	margin-top: 90px;
+	.hero__wrapper {
+	}
+}
+
+.hero__content {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	max-width: 600px;
+}
+.hero__content-heading {
+	font-weight: 500;
+	font-size: 50px;
+	line-height: 140%;
+	color: rgba(255, 255, 255, 0.9);
+}
+.hero__content-paragrath {
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 30px;
+	text-align: left;
+	max-width: 487px;
+}
+.hero__content-search {
+}
+.hero__content-btn {
+}
+.hero__content-social {
+}
+.social {
+}
+.social__list {
+}
+.social__item {
+}
+.social__link {
+}
+.social__icon {
+}
