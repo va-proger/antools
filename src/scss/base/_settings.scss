@@ -1,33 +1,52 @@
-* {
+*,
+*::before,
+*::after {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-
-	&::before {
-		box-sizing: border-box;
-		margin: 0;
-		padding: 0;
-	}
-	&::after {
-		box-sizing: border-box;
-		margin: 0;
-		padding: 0;
-	}
 }
 html,
 body {
 	height: 100%;
+	width: 100%;
 }
 body {
 	margin: 0;
 	padding: 0;
 	font-family: "Poppins", sans-serif;
-	font-size: 14px;
+	font-size: 100%;
 	color: #fff;
 	background: #1e252b;
 	height: 100vh;
 }
-
+:focus,
+:active {
+	outline: none;
+}
+input,
+textarea,
+button {
+	font-family: inherit;
+}
+input::-ms-claear {
+	display: none;
+	color: inherit;
+}
+button {
+	cursor: pointer;
+	color: inherit;
+}
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	outline: none;
+}
 div,
 section,
 main,
@@ -72,6 +91,8 @@ h2,
 h3 {
 	margin: 0;
 	padding: 0;
+	font-family: inherit;
+	font-weight: inherit;
 }
 
 h4 {
@@ -79,14 +100,18 @@ h4 {
 	padding: 0;
 	margin: 0;
 	padding: 0;
+	font-family: inherit;
+	font-weight: inherit;
 }
 
 h5,
 h6 {
 	margin: 0;
 	padding: 0;
+	font-family: inherit;
 }
 
 img {
 	width: 100%;
+	vertical-align: top;
 }

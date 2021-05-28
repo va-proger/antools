@@ -1,20 +1,23 @@
 .hero {
-	margin-top: 90px;
-	.hero__wrapper {
-	}
 }
 
 .hero__content {
+	position: relative;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	max-width: 600px;
 }
 .hero__content-heading {
+	margin-bottom: 30px;
 	font-weight: 500;
 	font-size: 50px;
 	line-height: 140%;
 	color: rgba(255, 255, 255, 0.9);
+	line-height: 1.4;
+	span {
+		color: #ff6e30;
+	}
 }
 .hero__content-paragrath {
 	font-size: 18px;
@@ -22,18 +25,87 @@
 	line-height: 30px;
 	text-align: left;
 	max-width: 487px;
+	color: rgba(255, 255, 255, 0.55);
+	line-height: 1.7;
+	margin-bottom: 60px;
+	font-weight: 400;
 }
 .hero__content-search {
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	justify-content: space-between;
+	position: relative;
+	border-radius: 15px;
+	height: 64px;
+	max-width: 500px;
+	background: #283036;
+	border-image-source: linear-gradient(90.89deg, rgba(255, 255, 255, 0.1) -1.67%, rgba(255, 255, 255, 0) 103.73%);
+	margin-bottom: 110px;
+	&::before {
+		content: "";
+		position: absolute;
+		background: url(../img/sprite.svg#search);
+		background-repeat: no-repeat;
+		background-position: center;
+		// background-size: cover;
+		left: 24px;
+		top: 24px;
+		transform: translate(-12px, -4px);
+		display: block;
+		width: 24px;
+		height: 24px;
+	}
+	input {
+		position: relative;
+		border: none;
+		padding-left: 55px;
+		width: 100%;
+		height: 64px;
+		background: transparent;
+		border: 1.5px solid transparent;
+		display: block;
+		color: rgba(255, 255, 255, 0.38);
+		font-size: 14px;
+		&:focus {
+			border: none;
+			outline: none;
+		}
+	}
 }
+
 .hero__content-btn {
+	display: block;
+	bottom: 0;
+	background: rgba(255, 110, 48, 1);
+	width: 130px;
+	height: 48px;
+	// padding: 12px 0px;
+	border-radius: 8px;
+	border: none;
 }
 .hero__content-social {
 }
 .social {
 }
 .social__list {
+	display: flex;
+	flex-direction: row;
+	i {
+		// display: flex;
+		// align-items: center;
+		// justify-content: center;
+		// align-self: center;
+		// text-align: center;
+		width: 36px;
+		padding: 15px 15px;
+		font-size: 27px;
+	}
 }
 .social__item {
+	width: 58px;
+	height: 58px;
 }
 .social__link {
 }

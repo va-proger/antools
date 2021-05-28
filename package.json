@@ -33,5 +33,6 @@
     "vinyl-ftp": "^0.6.1",
     "webpack": "^5.37.0",
     "webpack-stream": "^6.1.2"
-  }
+  },
+  "dependencies": {}
 }

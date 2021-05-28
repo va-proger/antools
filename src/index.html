@@ -3,17 +3,105 @@
 
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="robot" content="none">
+	<meta name="Address" content="Russia, Izhevsk">
+	<meta name="Copyright" content="VProger">
+	<meta name="Author" content="Vikulov Andrey">
+
 	<link rel="stylesheet" type="text/css" href="css/main.min.css">
 	<title>antools</title>
 </head>
 
 <body>
 	<div class="page">
-		@include("_header.html")
-		<main class="main">
+		<header class="header">
+			<div class="header__wrapper">
+				<div class="container nav-wrapper">
+					<div class="nav__logo">
+						<svg class='logo nav__logo'>
+							<use xlink:href="img/sprite.svg#logo"></use>
+						</svg>
 
+						<h1>antools.</h1>
+					</div>
+					<menu class="nav__menu menu">
+						<ul class="menu__list">
+							<li><a href="#">Home</a></li>
+							<li><a href="#">
+									Cotegories
+								</a>
+								<!--                 	<ul class="submenu">
+									 <li class="submenu-item"></li>
+									 </ul> -->
+							</li>
+							<li><a href="#">My Collections</a></li>
+							<li><a href="#">Blog</a></li>
+
+
+						</ul>
+					</menu>
+					<div class="nav__login login">
+						<div class="login__label"><a href="#">Login</a></div>
+						<button class="login__btn btn">Sign Up</button>
+					</div>
+				</div>
+			</div>
+			<div class="hero">
+				<div class="container hero__wrapper">
+					<div class="hero__content">
+						<h2 class="hero__content-heading">
+							Awesome tools for
+							Designer & Developer<span>.</span>
+						</h2>
+						<p class="hero__content-paragrath">
+							Antool is a web collection of information on paid or free Design and Development tools
+						</p>
+						<form class="hero__content-search">
+							<input type="search" name="" id="" class="search" placeholder="find more than 430+ tools...">
+							<button class="hero__content-btn">Search</button>
+						</form>
+						<div class="hero__content-social social">
+							<ul class="social__list">
+								<li class="social__item"><a href="" class="social__link"><i class="icon-facebook-f"></i></a>
+								</li>
+								<li class="social__item"><a href="" class="social__link"><i
+											class="social__icon icon-instagram"></i></a>
+								</li>
+								<li class="social__item"><a href="" class="social__link"><i
+											class="social__icon icon-twitter1"></i></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="main">
+			<section class="tools">
+				<div class="tools__wrapper">
+					<div class="tools__header">
+						<h2 class="tools__title">Most Popular Tools</h2>
+						<p class="tools__escription">Tools for the best Designers and Developers
+							most popularly used in the world</p>
+					</div>
+					<div class="app">
+						<div class="app__title">
+							<img src="/img/sprite.svg#grommet-icons_figma" alt="">
+						</div>
+						<div class="app__description">
+
+						</div>
+						<div class="app__action">
+
+						</div>
+					</div>
+
+				</div>
+			</section>
 		</main>
 		@include("_footer.html")
 	</div>

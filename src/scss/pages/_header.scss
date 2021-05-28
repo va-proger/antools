@@ -1,15 +1,18 @@
 .header {
-	height: 100vh;
-	background: url("../img/bg-header.png") right top no-repeat;
-	background-size: cover;
+	background: url("../img/bg-header.png") 60% top no-repeat;
+	background-size: contain;
+	height: 700px;
+	padding-bottom: 20px;
 	.nav-wrapper {
 		display: flex;
 		flex-direction: row;
 		align-items: center;
+		flex-wrap: wrap;
 		justify-content: space-between;
 		min-height: 100px;
 		padding-top: 26px;
 		padding-bottom: 26px;
+		margin-bottom: 78px;
 	}
 	.header__wrapper {
 	}
@@ -75,4 +78,5 @@
 	outline: none;
 	border: none;
 	border-radius: 8px;
+	color: rgba(253, 245, 255, 1);
 }
