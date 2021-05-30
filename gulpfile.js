@@ -31,7 +31,7 @@ const fonts = () => {
 
 const cb = () => { }
 
-let srcFonts = './src/scss/base/_fonts.scss';
+let srcFonts = './src/scss/_fonts.scss';
 let appFonts = './app/fonts/';
 
 const fontsStyle = (done) => {
@@ -103,7 +103,7 @@ const imgToApp = () => {
 }
 
 const resources = () => {
-	return src('./src/resources/**')
+	return src('./src/resources/**', './src/assets/**')
 		.pipe(dest('./app'))
 }
 
@@ -112,7 +112,7 @@ const clean = () => {
 }
 
 const scripts = () => {
-	return src('./src/js/*')
+	return src('./src/js/main.js')
 		.pipe(webpackStream({
 			mode: 'development',
 			output: {

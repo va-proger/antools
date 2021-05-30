@@ -1,3 +1,7 @@
+:root {
+	box-sizing: border-box;
+}
+
 *,
 *::before,
 *::after {
@@ -114,4 +118,15 @@ h6 {
 img {
 	width: 100%;
 	vertical-align: top;
+}
+.hidden {
+	display: none;
+	opacity: 0;
+	visibility: hidden;
+}
+.page {
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
 }

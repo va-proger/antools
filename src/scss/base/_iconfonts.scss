@@ -27,39 +27,79 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-github {
+.icon-angle-left {
   &:before {
-    content: $icon-github;
+    content: $icon-angle-left;
   }
 }
-.icon-facebook {
+.icon-angle-right {
   &:before {
-    content: $icon-facebook;
+    content: $icon-angle-right;
   }
 }
-.icon-vk {
+.icon-css3-alt {
   &:before {
-    content: $icon-vk;
+    content: $icon-css3-alt;
   }
 }
-.icon-behance {
+.icon-dev {
   &:before {
-    content: $icon-behance;
+    content: $icon-dev;
   }
 }
-.icon-dribbble {
+.icon-github-square {
   &:before {
-    content: $icon-dribbble;
+    content: $icon-github-square;
   }
 }
-.icon-search2 {
+.icon-git-square {
   &:before {
-    content: $icon-search2;
+    content: $icon-git-square;
   }
 }
-.icon-search1 {
+.icon-html5 {
   &:before {
-    content: $icon-search1;
+    content: $icon-html5;
+  }
+}
+.icon-joomla {
+  &:before {
+    content: $icon-joomla;
+  }
+}
+.icon-js {
+  &:before {
+    content: $icon-js;
+  }
+}
+.icon-less {
+  &:before {
+    content: $icon-less;
+  }
+}
+.icon-microsoft {
+  &:before {
+    content: $icon-microsoft;
+  }
+}
+.icon-node {
+  &:before {
+    content: $icon-node;
+  }
+}
+.icon-npm {
+  &:before {
+    content: $icon-npm;
+  }
+}
+.icon-odnoklassniki-square {
+  &:before {
+    content: $icon-odnoklassniki-square;
+  }
+}
+.icon-angle-down {
+  &:before {
+    content: $icon-angle-down;
   }
 }
 .icon-twitter1 {
@@ -170,5 +210,30 @@
 .icon-laptop-code {
   &:before {
     content: $icon-laptop-code;
+  }
+}
+.icon-github {
+  &:before {
+    content: $icon-github;
+  }
+}
+.icon-facebook {
+  &:before {
+    content: $icon-facebook;
+  }
+}
+.icon-vk {
+  &:before {
+    content: $icon-vk;
+  }
+}
+.icon-behance {
+  &:before {
+    content: $icon-behance;
+  }
+}
+.icon-dribbble {
+  &:before {
+    content: $icon-dribbble;
   }
 }
