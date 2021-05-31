@@ -1579,13 +1579,19 @@ h6 {
     border-radius: 50%;
 }
 
-.join__wrapper {
+.join {
     margin-bottom: 240px;
+}
+
+.join__wrapper {
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     flex-grow: 0;
     flex-shrink: 0;
+    max-width: 540px;
 }
 
 .join__wrapper .join__heading h2 {
